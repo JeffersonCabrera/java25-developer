@@ -7,7 +7,7 @@ package pe.joedayz;
 public class Main {
     static void main() {
 
-
+        IO.print("Hola Mundo");
     }
 }
 
