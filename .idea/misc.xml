@@ -6,10 +6,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/Sesion01/pom.xml" />
+        <option value="$PROJECT_DIR$/Session0/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="28" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_27" project-jdk-name="temurin-25" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
