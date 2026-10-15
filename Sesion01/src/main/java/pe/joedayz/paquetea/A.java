@@ -9,7 +9,7 @@ public class A {
     String m3; // default access modifier (package-private)
 
     void play(){
-        System.out.println("play");
+        System.out.println("play " + m3);
     }
 
     protected void run(){

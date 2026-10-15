@@ -14,3 +14,9 @@ public class Carro {
 
     }
 }
+class Motor{
+
+}
+class Llanta{
+
+}
