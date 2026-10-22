@@ -24,5 +24,38 @@ public class TextBlockSample {
                    These are \""" three quotes\
                 """;
         System.out.println("textBlockWithIndentation = " + textBlockWithIndentation);
+
+
+        String sql =
+                "SELECT e.nombre, d.nombre AS departamento " +
+                        "FROM empleados e " +
+                        "INNER JOIN departamentos d " +
+                        "    ON e.departamento_id = d.id " +
+                        "WHERE d.nombre = ? " +
+
+                        "UNION " +
+
+                        "SELECT e.nombre, d.nombre AS departamento " +
+                        "FROM empleados e " +
+                        "INNER JOIN departamentos d " +
+                        "    ON e.departamento_id = d.id " +
+                        "WHERE d.nombre = ?";
+
+        String sqlTextBlock = """
+                SELECT e.nombre, d.nombre AS departamento
+                FROM empleados e
+                INNER JOIN departamentos d
+                    ON e.departamento_id = d.id
+                WHERE d.nombre = ?
+                
+                UNION
+                
+                SELECT e.nombre, d.nombre AS departamento
+                FROM empleados e
+                INNER JOIN departamentos d
+                    ON e.departamento_id = d.id
+                WHERE d.nombre = ?
+                """;
+
     }
 }

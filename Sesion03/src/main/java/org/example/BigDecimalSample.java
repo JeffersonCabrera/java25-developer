@@ -62,5 +62,11 @@ public class BigDecimalSample {
         System.out.println(price);
 
 
+        BigDecimal precio = new BigDecimal(0.1);
+        System.out.println("precio " + precio);
+
+        BigDecimal resultado = BigDecimal.ONE.divide(new BigDecimal("3"), 2, BigDecimal.ROUND_HALF_UP);
+        System.out.println("resultado " + resultado);
+
     }
 }

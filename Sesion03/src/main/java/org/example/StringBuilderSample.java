@@ -18,7 +18,11 @@ public class StringBuilderSample {
 
         System.out.println("Sb = " + sb);
 
-        sb.insert(4, 's');
+       //sb.insert(4, 's');
+
+        sb.repeat("java", 3);
+
+        System.out.println("Sb = " + sb);
 
 
     }
