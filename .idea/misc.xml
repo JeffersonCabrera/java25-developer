@@ -4,8 +4,10 @@
   <component name="KubernetesApiProvider"><![CDATA[{}]]></component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/Sesion01/pom.xml" />  
+      <list> 
+        <option value="$PROJECT_DIR$/Sesion01/pom.xml" />
+        <option value="$PROJECT_DIR$/Sesion02/pom.xml" />
+        <option value="$PROJECT_DIR$/Sesion03/pom.xml" /> 
       </list>
     </option>
   </component>
