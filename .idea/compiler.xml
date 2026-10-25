@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Sesion03" />
         <module name="Sesion01" />
+        <module name="Sesion2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
