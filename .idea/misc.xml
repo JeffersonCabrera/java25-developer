@@ -9,7 +9,12 @@
         <option value="$PROJECT_DIR$/Sesion02/pom.xml" /> 
         <option value="$PROJECT_DIR$/Sesion03/pom.xml" />
         <option value="$PROJECT_DIR$/ejemplos-concurrencia/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Session04/pom.xml" /> 
+=======
+        <option value="$PROJECT_DIR$/Session04/pom.xml" />
+        <option value="$PROJECT_DIR$/Session05/pom.xml" />
+>>>>>>> upstream/main
       </list>
     </option>
   </component>
