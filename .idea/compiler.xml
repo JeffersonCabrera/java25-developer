@@ -15,7 +15,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ejemplos-concurrencia" target="25" />
+      <module name="Sesion01" target="25" />
+      <module name="Sesion03" target="25" />
+      <module name="Sesion2" target="25" />
       <module name="Session0" target="27" />
+      <module name="Session04" target="25" />
     </bytecodeTargetLevel>
   </component>
 </project>
